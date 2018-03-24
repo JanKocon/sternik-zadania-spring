@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.sternik.jk.zadania.spring.zad06.DrugieDao;
 
+import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 @Service
@@ -12,7 +13,7 @@ public class KlaserServiceImpl {
     @Autowired
     @DrugieDao
 //	@Qualifier("druga")
-//	@Inject
+	//@Inject
     private MonetaDao monetaDao;
 
     public KlaserServiceImpl() {
