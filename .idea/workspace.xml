@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad68e7c-dd42-44d3-9eab-cf8aeee11401" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad12/BeanP1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad12/BeanP2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad12/MyProfilowyBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad12/RunIt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad04/KlaserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad04/KlaserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad07/LifeBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad07/LifeBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad07/RunIt.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad07/RunIt.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad08/PrototypeBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad08/PrototypeBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad08/SingletonBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad08/SingletonBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad09/BeanConfigurator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad09/BeanConfigurator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad09/RunIt.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad09/RunIt.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad10/AdditionalBeanConfigurator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad10/AdditionalBeanConfigurator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad10/RunIt.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad10/RunIt.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad11/DbBeanConfigurator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad11/DbBeanConfigurator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad11/RunIt.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad11/RunIt.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,8 +103,8 @@
       <file leaf-file-name="RunIt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad12/RunIt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="273">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -636,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521899498850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Poprawki">
+      <created>1521916502593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521916502593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -652,7 +643,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1184,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sternik/jk/zadania/spring/zad12/RunIt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
