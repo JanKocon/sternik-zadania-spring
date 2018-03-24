@@ -1,15 +1,20 @@
 package pl.sternik.jk.zadania.spring.zad05;
 
+import org.springframework.stereotype.Repository;
 import pl.sternik.jk.zadania.spring.zad04.Moneta;
 import pl.sternik.jk.zadania.spring.zad04.MonetaDao;
 import pl.sternik.jk.zadania.spring.zad04.NoSuchMonetaException;
 import pl.sternik.jk.zadania.spring.zad04.Status;
+import pl.sternik.jk.zadania.spring.zad06.DrugieDao;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@Repository
+//@Qualifier("druga")
+@DrugieDao
 public class DrugaBazaDanych implements MonetaDao {
 
     private List<Moneta> baza;

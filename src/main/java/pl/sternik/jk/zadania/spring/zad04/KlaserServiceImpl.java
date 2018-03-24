@@ -1,13 +1,18 @@
 package pl.sternik.jk.zadania.spring.zad04;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.sternik.jk.zadania.spring.zad06.DrugieDao;
 
-import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 @Service
 public class KlaserServiceImpl {
-    @Resource(name = "prostaBazaDanych")
+    //	@Resource(name="prostaBazaDanych")
+    @Autowired
+    @DrugieDao
+//	@Qualifier("druga")
+//	@Inject
     private MonetaDao monetaDao;
 
     public KlaserServiceImpl() {
@@ -26,4 +31,5 @@ public class KlaserServiceImpl {
         }
         return tmp;
     }
+
 }
