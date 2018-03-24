@@ -4,9 +4,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-//import pl.sternik.kk.zadania.spring.zad01.MyFirstBean;
-//import pl.sternik.kk.zadania.spring.zad02.MySecondBean;
-//import pl.sternik.kk.zadania.spring.zad03.MyThirdBean;
+
 
 public class RunIt {
 	public static void main(String[] args) {

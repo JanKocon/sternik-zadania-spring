@@ -8,8 +8,8 @@ public class RunIt
     public static void main( String[] args )
     {
     	ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("beans03.xml");
-//        MyThirdBean obj = (MyThirdBean) context.getBean("myThirdBean");
-//        System.out.println(obj.getCompoundName());
+        MyThirdBean obj = (MyThirdBean) context.getBean("myThirdBean");
+        System.out.println(obj.getCompoundName());
         
         context.close();
     }

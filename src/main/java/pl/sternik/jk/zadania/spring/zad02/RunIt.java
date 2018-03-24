@@ -13,8 +13,8 @@ public class RunIt
         System.out.println("Kontener Spring wstał i zainicjalizował sie.");
         System.out.println("Nacisnij enter");
         System.in.read();
-//    	MySecondBean obj = (MySecondBean) context.getBean("mySecondBean");
-//        System.out.println(obj.getName());
+    	MySecondBean obj = (MySecondBean) context.getBean("mySecondBean");
+        System.out.println(obj.getName());
         
         context.close();
     }
